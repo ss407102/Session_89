@@ -61,7 +61,7 @@
        *  Deeper Model was initialized by using layers of model A(trained with random initialization ).
        * Learning rate was not changed for these layers.
        * Remaining layers initialized randomly using concept similar to Glorot & Bengio initializer (2010).
-       * Random cropping (224 x 224) and horizontal flipping,RGB color shift  for data augmentation.
+    * Random cropping (224 x 224) and horizontal flipping,RGB color shift  for data augmentation.
     * Trained on two fixed scale s=256 and s=384 and multi scale chosen from range [256,512].
 
 
