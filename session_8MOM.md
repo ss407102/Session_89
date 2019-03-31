@@ -53,8 +53,7 @@
       * pre-initialisation of certain layers.
 
     * Initialization -
-       *  Deeper Model was initialized by using layers of model A(trained with random initialization ).
-       * Learning rate was not changed for these layers.
+       *  Deeper Model was initialized by using layers of model A(trained with random initialization ) without changing learning rate.
        * Remaining layers initialized randomly.
        * For random initialization weights were sampled from a normal distribution
 with the zero mean and 10 −2 variance.
@@ -123,5 +122,6 @@ is captured.
 result (7.0% test error).**
 
 # Credits
-*Conducted by:* [Udbhav Bamba](https://github.com/ubamba98) on 23-03-2019
+*Conducted by:* [Udbhav Bamba](https://github.com/ubamba98) on 23-03-2019.
+
 *Report compiled by:* [Sachin Shukla](https://github.com/ss407102)
