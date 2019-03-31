@@ -31,8 +31,7 @@
 
      * Alexnet (11 × 11 with stride 4),and 7 × 7 with stride 2 in (Zeiler & Fergus,2013; Sermanet et al., 2014)) uses large receptive field.
      *   VGG uses small receptive field of (3 x 3) with stride 1.
-     * Stack of two 3 x 3 layers without pooling equal to (5 x 5) receptive field.
-     * Stack of three 3 x 3 layers without pooling is equal to  7 x 7 receptive field.
+     * Stack of two 3 x 3 and three 3 x3  without pooling is equal to effective receptive field of 5 x 5 and 7 x 7 respectively.
      * Above step makes decision function more discriminative(3 non-linear relu).
      * 3 (3 x 3) layers decreases parameters by approx 81 % w.r.t.(7 x 7) .
      * 1 x 1 is used to increase the non-linearity of the decision function without affecting the receptive fields of the conv. Layers.
