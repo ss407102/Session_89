@@ -123,4 +123,5 @@ is captured.
 result (7.0% test error).**
 
 # Credits
-*Conducted by:* [Udbhav Bamba](https://github.com/ubamba98) 
+*Conducted by:* [Udbhav Bamba](https://github.com/ubamba98) on 23-03-2019
+*Report compiled by:* [Sachin Shukla](https://github.com/ss407102)
