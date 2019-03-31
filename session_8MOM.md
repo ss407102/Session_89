@@ -6,7 +6,7 @@
  * Introduction
 
    * Accuracy of model can be increased significantly by increasing depth (16-19) layers model and using small (3 x 3) convolution filters.
-   * This model basically improves Alexnet model by using small filters,small strides and using better cropping and scaling.
+   * This model basically improves (Krizhevsky et al., 2012) model by using small filters,small strides and using better cropping and scaling.
 
  * Architecture
 
@@ -29,7 +29,7 @@
 
  * Discussion
 
-     * Alexnet (11 × 11 with stride 4),and 7 × 7 with stride 2 in (Zeiler & Fergus,2013; Sermanet et al., 2014)) uses large receptive field.
+     * Krizhevsky et al., 2012 (11 × 11 with stride 4),and 7 × 7 with stride 2 in (Zeiler & Fergus,2013; Sermanet et al., 2014)) uses large receptive field.
      *   VGG uses small receptive field of (3 x 3) with stride 1.
      * Stack of two 3 x 3 and three 3 x3  without pooling is equal to effective receptive field of 5 x 5 and 7 x 7 respectively.
      * Above step makes decision function more discriminative(3 non-linear relu).
