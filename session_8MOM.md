@@ -1,5 +1,5 @@
 # Session 8
- Paper reading session Very Deep Convolutional Networks For Large-Scale Image Recognition by K Simonyan -2014
+ Paper reading session Very Deep Convolutional Networks For Large-Scale Image Recognition by K Simonyan et al.,2014
  ## Resources
  Link to paper -- [Very Deep Convolutional Networks For Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf)
  ## Summary
@@ -29,9 +29,7 @@
 
  * Discussion
 
-     * Alexnet (11 × 11 with stride 4).
-     * 7 × 7 with stride 2 in (Zeiler & Fergus,2013; Sermanet et al., 2014))
-     *  Above 2 models uses large receptive field.
+     * Alexnet (11 × 11 with stride 4),and 7 × 7 with stride 2 in (Zeiler & Fergus,2013; Sermanet et al., 2014)) uses large receptive field.
      *   VGG uses small receptive field of (3 x 3) with stride 1.
      * Stack of two 3 x 3 layers without pooling equal to (5 x 5) receptive field.
      * Stack of three 3 x 3 layers without pooling is equal to  7 x 7 receptive field.
