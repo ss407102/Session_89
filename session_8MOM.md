@@ -10,7 +10,7 @@
 
  * Architecture
 
-    ![alt text](models_detail.png)
+    ![alt text](https://neurohive.io/wp-content/uploads/2018/11/Capture-564x570.jpg)
 
     * Configuration :
        *  Models with increasing depth by increasing  conv layers.
