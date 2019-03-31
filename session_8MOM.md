@@ -1,11 +1,11 @@
-# Session 8
+# Session 9
  Paper reading session Very Deep Convolutional Networks For Large-Scale Image Recognition by K Simonyan et al.(2014)
  ## Resources
  Link to paper -- [Very Deep Convolutional Networks For Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf)
  ## Summary
  * Introduction
 
-   * Accuracy of model can be increased significantly by increasing depth (16-19) layers model and using small (3*3) convolution filters.
+   * Accuracy of model can be increased significantly by increasing depth (16-19) layers model and using small (3 x 3) convolution filters.
    * This model basically improves Alexnet model by using small filters,small strides and using better cropping and scaling.
 
  * Architecture
@@ -22,7 +22,7 @@
        * Third FC layer - 1000 way softmax.
     * Key Points :-
        *  (1 x 1) filters are used followed by non-linear function to give non-linearity to input channels.
-       * Padding = 1 pixel for (3*3) conv layers.
+       * Padding = 1 pixel for (3 x 3) conv layers.
        *  LRN did not worked well in improving accuracy so LRN was only used once in A-LRN (11 layers) model.
        *  Relu activation function was used for all hidden layers.
 
