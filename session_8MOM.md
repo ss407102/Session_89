@@ -72,7 +72,8 @@ with the zero mean and 10 −2 variance.
     * Horizontal flip and averaging them.
     * Key Points :-
        * Using more than one values of Q for same S increased accuracy.
-       *  Multi crop and dense are complementary due to increase in receptive field.
+       * Multi-crop evaluation is complementary to dense evaluation due
+to different convolution boundary conditions.
 
 
 * Implementation Details
