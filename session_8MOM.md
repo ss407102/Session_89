@@ -12,10 +12,6 @@
 
     ![alt text](https://neurohive.io/wp-content/uploads/2018/11/Capture-564x570.jpg)
 
-    * Configuration :
-       *  Models with increasing depth by increasing  conv layers.
-       *  Fixed no of FC layers (3).
-       *  A-E models A-11 layers model and E-19 weight layer model.
     * Input :
        *  fixed size 224 x 224 rgb image.
     * Preprocessing -
