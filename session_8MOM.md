@@ -65,7 +65,8 @@ with the zero mean and 10 −2 variance.
 * Testing
 
     *  Rescaled to smallest side Q (!=S).
-    * In dense evaluation, the fully connected layers are converted to convolutional layers at test time, and the uncropped image is passed through the fully convolutional net to get dense class scores. Scores are averaged for the uncropped image and its flip to obtain the final fixed-width class posteriors.
+    * In dense evaluation, the fully connected layers are converted to convolutional layers at test time(the first FC layer to a 7 × 7
+conv. layer, the last two FC layers to 1 × 1 conv. layers) and the uncropped image is passed through the fully convolutional net to get dense class scores. Scores are averaged for the uncropped image and its flip to obtain the final fixed-width class posteriors.
     * Test set was augmented by horizontal flipping of the images;
 the soft-max class posteriors of the original and flipped images are averaged to obtain the final scores
 for the image.
