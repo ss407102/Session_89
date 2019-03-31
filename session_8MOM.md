@@ -73,7 +73,11 @@ with the zero mean and 10 −2 variance.
     * Key Points :-
        * Using more than one values of Q for same S increased accuracy.
        * Multi-crop evaluation is complementary to dense evaluation due
-to different convolution boundary conditions.
+to different convolution boundary conditions:when applying a ConvNet to a crop, the convolved
+feature maps are padded with zeros, while in the case of dense evaluation the padding for the same
+crop naturally comes from the neighbouring parts of an image (due to both the convolutions and
+spatial pooling), which substantially increases the overall network receptive field, so more context
+is captured.
 
 
 * Implementation Details
