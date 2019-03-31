@@ -1,5 +1,5 @@
 # Session 8
- Paper reading session Very Deep Convolutional Networks For Large-Scale Image Recognition by K Simonyan et al.,2014
+ Paper reading session Very Deep Convolutional Networks For Large-Scale Image Recognition by K Simonyan et al.(2014)
  ## Resources
  Link to paper -- [Very Deep Convolutional Networks For Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf)
  ## Summary
@@ -55,7 +55,9 @@
     * Initialization -
        *  Deeper Model was initialized by using layers of model A(trained with random initialization ).
        * Learning rate was not changed for these layers.
-       * Remaining layers initialized randomly using concept similar to Glorot & Bengio initializer (2010).
+       * Remaining layers initialized randomly.
+       * For random initialization weights were sampled from a normal distribution
+with the zero mean and 10 −2 variance.
        * Random cropping (224 x 224) and horizontal flipping,RGB color shift  for data augmentation.
     * Trained on two fixed scale s=256 and s=384 and multi scale chosen from range [256,512].
 
