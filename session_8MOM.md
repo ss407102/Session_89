@@ -1,5 +1,5 @@
 # Session 9
- Paper reading session Very Deep Convolutional Networks For Large-Scale Image Recognition by Karen Simonyan & Andrew Zisserman+ -2014
+ Paper reading session Very Deep Convolutional Networks For Large-Scale Image Recognition by K Simonyan -2014
  ## Resources
  Link to paper -- [Very Deep Convolutional Networks For Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf)
  ## Summary
