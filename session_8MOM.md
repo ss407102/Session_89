@@ -13,9 +13,9 @@
     ![alt text](https://neurohive.io/wp-content/uploads/2018/11/Capture-564x570.jpg)
 
     * Input :
-       *  fixed size 224 x 224 rgb image.
+       *  Fixed size 224 x 224 rgb image.
     * Preprocessing -
-       * subtracting the mean rgb value.
+       * Subtracting the mean rgb value.
     * Overview :-
        * Five (2 x 2) Max pool layers with stride=2.
        * 3 FC layers ( First two - 4096 channels).
