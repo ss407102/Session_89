@@ -114,8 +114,8 @@ is captured.
 
 * ConvNet Fusion
 
-    * ensemble of 7 networks has 7.3% error.
-    * ensembling best two (16 layers model(3 x 3 conv layers) and 19 layers model)  error=7% dense and multi+dense error =6.8%.
+    * Ensemble of 7 networks has 7.3% error.
+    * Ensembling best two (16 layers model(3 x 3 conv layers) and 19 layers model)  error=7% dense and multi+dense error =6.8%.
 (GoogleNet error=6.7%).
 
 **In terms of the single-net performance, this architecture achieves the best
