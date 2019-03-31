@@ -65,6 +65,7 @@ with the zero mean and 10 −2 variance.
 * Testing
 
     *  Rescaled to smallest side Q (!=S).
+    * Images were evaluated using dense and multi crop evaluation.
     * In dense evaluation, the fully connected layers are converted to convolutional layers at test time(the first FC layer to a 7 × 7
 conv. layer, the last two FC layers to 1 × 1 conv. layers) and the uncropped image is passed through the fully convolutional net to get dense class scores. Scores are averaged for the uncropped image and its flip to obtain the final fixed-width class posteriors.
     * Test set was augmented by horizontal flipping of the images;
@@ -89,6 +90,7 @@ is captured.
 
     * Model with (3 x 3) perform better than (1 x 1)  so it is important to capture spatial context.
     * Replacing two (3 x 3) by single (5 x 5)  increases error by 7%.
+    * "Jittering" refers to the idea of adding small amounts of noise to your data to generate new, artificially corrupted examples. Theoretically, it is known to have a regularizing effect on the solution.
     * Scale Jittering is helpful for capturing multi-scale image statistics.
     * Q = S for fixed S, and Q = 0.5 x (S min + S max ) for jittered S ∈ [S min , S max ].
 
@@ -102,7 +104,7 @@ is captured.
        * Result = average of 3 rescaled version.
     * Key Points :-
        * Scale jittering at training time allows the network to be applied to a wider range of scales at test time.
-       * 16 and 19 layers model’s error decreases by 0.7% as compared to single scale.
+       * 16 and 19 layers model’s error decreased by 0.7% as compared to single scale.
        * Scale jittering, both at test time and training time, leads to better performance.
 
 * Multi Crop Evaluation
@@ -119,3 +121,6 @@ is captured.
 
 **In terms of the single-net performance, this architecture achieves the best
 result (7.0% test error).**
+
+# Credits
+*Conducted by:* [Udbhav Bamba](https://github.com/ubamba98) 
